@@ -1,0 +1,73 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;gopher-polymer&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../.DS_Store" />
+      <root url="file://$PROJECT_DIR$/../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../media-server" />
+      <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../willnorris.com" />
+      <root url="file://$PROJECT_DIR$/../hello-relic" />
+      <root url="file://$PROJECT_DIR$/../golang.org" />
+      <root url="file://$PROJECT_DIR$/../acst" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <excluded>
+      <root url="file://$PROJECT_DIR$/../github.com/yvasiyarov/gorelic/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/yvasiyarov/newrelic_platform_go/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/couchbaselabs/gocb/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/gographics/imagick/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/brandfolder/gin-gorelic/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/golang/glog/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/vincent-petithory/dataurl/.git" />
+      <root url="file://$PROJECT_DIR$/../golang.org/x/net/.git" />
+      <root url="file://$PROJECT_DIR$/../gopkg.in/couchbaselabs/gocb.v0/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/julienschmidt/httprouter/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/davecgh/go-spew/spew/testdata" />
+      <root url="file://$PROJECT_DIR$/../github.com/feyeleanor/sets/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/mattn/go-colorable/_example" />
+      <root url="file://$PROJECT_DIR$/../github.com/mattn/go-colorable/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/stathat/go/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/goamz/goamz/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/davecgh/go-spew/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/vaughan0/go-ini/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/feyeleanor/raw/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/davecheney/profile/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/k0kubun/pp/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/disintegration/imaging/.git" />
+      <root url="file://$PROJECT_DIR$/../hello-relic/.idea" />
+      <root url="file://$PROJECT_DIR$/../github.com/feyeleanor/slices/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/yvasiyarov/go-metrics/.git" />
+      <root url="file://$PROJECT_DIR$/../acst/kalektiv/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/petar/GoLLRB/.git" />
+      <root url="file://$PROJECT_DIR$/../golang.org/x/image/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/gin-gonic/gin/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/cihub/seelog/.git" />
+      <root url="file://$PROJECT_DIR$/../acst/kalektiv/.idea" />
+      <root url="file://$PROJECT_DIR$/../github.com/bitly/go-simplejson/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/syndtr/gosnappy/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/bradfitz/gomemcache/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/peterbourgon/diskv/.git" />
+      <root url="file://$PROJECT_DIR$/../golang.org/x/image/testdata" />
+      <root url="file://$PROJECT_DIR$/../willnorris.com/go/imageproxy/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/syndtr/goleveldb/.git" />
+      <root url="file://$PROJECT_DIR$/../gopkg.in/bluesuncorp/validator.v5/.git" />
+      <root url="file://$PROJECT_DIR$/../golang.org/x/net/html/charset/testdata" />
+      <root url="file://$PROJECT_DIR$/../media-server/.idea" />
+      <root url="file://$PROJECT_DIR$/../media-server/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/manucorporat/sse/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/BurntSushi/toml/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/BurntSushi/toml/_examples" />
+      <root url="file://$PROJECT_DIR$/../github.com/goamz/goamz/cloudfront/testdata" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/../gopkg.in/amz.v2/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/miekg/dns/.git" />
+      <root url="file://$PROJECT_DIR$/../golang.org/x/net/html/testdata" />
+      <root url="file://$PROJECT_DIR$/../acst/bricks/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/gregjones/httpcache/.git" />
+      <root url="file://$PROJECT_DIR$/../acst/media/.idea" />
+      <root url="file://$PROJECT_DIR$/../acst/media/.git" />
+      <root url="file://$PROJECT_DIR$/../gopkg.in/check.v1/.git" />
+    </excluded>
+  </library>
+</component>

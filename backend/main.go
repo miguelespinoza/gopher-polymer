@@ -7,30 +7,32 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
+// Post ...
 type Post struct {
-	Uid      int    `json:"uid"`
+	UID      int    `json:"uid"`
 	Text     string `json:"text"`
 	Username string `json:"username"`
 	Avatar   string `json:"avatar"`
 	Favorite bool   `json:"favorite"`
 }
 
+// PostsHandler ...
 func PostsHandler(c *gin.Context) {
 	fmt.Print("Handling Request for posts")
 
 	posts := []Post{
 		{
 			1,
-			"First",
-			"Miguel",
-			"miguel_avatar",
+			"Wounded, captured and forced to build a weapon by his enemies, billionaire industrialist Tony Stark instead created an advanced suit of armor to save his life and escape captivity.",
+			"Iron Man",
+			"ironman.jpg",
 			false,
 		},
 		{
 			2,
-			"Second",
-			"Laura",
-			"laura_avatar",
+			"Bitten by a radioactive spider, high school student Peter Parker gained the speed, strength and powers of a spider. Adopting the name Spider-Man, Peter hoped to start a career using his new ...",
+			"Spider Man",
+			"spidey.jpg",
 			false,
 		},
 	}
@@ -49,11 +51,9 @@ func main() {
 
 	router := gin.Default()
 	router.GET("/posts", PostsHandler)
+	router.LoadHTMLFiles("frontend/*.html")
+	router.Static("/front", "../frontend")
 
-	static := router.Group("/")
-	{
-		static.Static("/test", "../frontend")
-	}
 	router.Run(":8080")
 
 	// Simple static webserver:

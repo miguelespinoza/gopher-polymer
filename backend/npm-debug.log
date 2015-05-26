@@ -1,0 +1,166 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'electron-prebuilt',
+1 verbose cli   '-g' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'electron-prebuilt', null ]
+7 verbose cache add spec electron-prebuilt
+8 silly cache add parsed spec { raw: 'electron-prebuilt',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'electron-prebuilt',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed electron-prebuilt@*
+10 verbose addNamed "*" is a valid semver range for electron-prebuilt
+11 silly addNameRange { name: 'electron-prebuilt', range: '*', hasData: false }
+12 silly mapToRegistry name electron-prebuilt
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/electron-prebuilt
+16 verbose addNameRange registry:https://registry.npmjs.org/electron-prebuilt not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/electron-prebuilt
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 6:15:28 PM
+20 verbose request id 7cfef446bd8fa6ad
+21 http request GET https://registry.npmjs.org/electron-prebuilt
+22 http 200 https://registry.npmjs.org/electron-prebuilt
+23 silly get cb [ 200,
+23 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 silly get     etag: '"4A3W5K3MH7UU63HGCGRUWR1ZS"',
+23 silly get     'content-type': 'application/json',
+23 silly get     'cache-control': 'max-age=60',
+23 silly get     'content-length': '16918',
+23 silly get     'accept-ranges': 'bytes',
+23 silly get     date: 'Tue, 26 May 2015 22:15:28 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     age: '0',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-atl6221-ATL',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1432678528.253272,VS0,VE76',
+23 silly get     vary: 'Accept' } ]
+24 verbose get saving electron-prebuilt to /Users/miguele/.npm/registry.npmjs.org/electron-prebuilt/.cache.json
+25 verbose getCacheStat cache creation not in flight; initializing
+26 silly addNameRange number 2 { name: 'electron-prebuilt', range: '*', hasData: true }
+27 silly addNameRange versions [ 'electron-prebuilt',
+27 silly addNameRange   [ '0.24.0',
+27 silly addNameRange     '0.25.0',
+27 silly addNameRange     '0.25.1',
+27 silly addNameRange     '0.25.1-1',
+27 silly addNameRange     '0.25.2',
+27 silly addNameRange     '0.25.2-1',
+27 silly addNameRange     '0.25.3',
+27 silly addNameRange     '0.25.3-1',
+27 silly addNameRange     '0.25.3-2',
+27 silly addNameRange     '0.26.0',
+27 silly addNameRange     '0.26.1' ] ]
+28 silly addNamed electron-prebuilt@0.26.1
+29 verbose addNamed "0.26.1" is a plain semver version for electron-prebuilt
+30 silly mapToRegistry name electron-prebuilt
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/electron-prebuilt
+34 verbose addRemoteTarball https://registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.26.1.tgz not in flight; adding
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.26.1.tgz',
+35 verbose addRemoteTarball   'e51d81aa0e6604f41b2237d3c991af24cb623b4c' ]
+36 info retry fetch attempt 1 at 6:15:28 PM
+37 info attempt registry request try #1 at 6:15:28 PM
+38 http fetch GET https://registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.26.1.tgz
+39 http fetch 200 https://registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.26.1.tgz
+40 silly fetchAndShaCheck shasum e51d81aa0e6604f41b2237d3c991af24cb623b4c
+41 verbose addTmpTarball /var/folders/6x/0c9_jw5n5xj2xwydvlt9r9qw0000gn/T/npm-6276-42463897/registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.26.1.tgz not in flight; adding
+42 verbose addTmpTarball already have metadata; skipping unpack for electron-prebuilt@0.26.1
+43 silly cache afterAdd electron-prebuilt@0.26.1
+44 verbose afterAdd /Users/miguele/.npm/electron-prebuilt/0.26.1/package/package.json not in flight; writing
+45 verbose afterAdd /Users/miguele/.npm/electron-prebuilt/0.26.1/package/package.json written
+46 silly install resolved [ { name: 'electron-prebuilt',
+46 silly install resolved     version: '0.26.1',
+46 silly install resolved     description: 'Install electron (formerly called atom-shell) prebuilts using npm',
+46 silly install resolved     repository:
+46 silly install resolved      { type: 'git',
+46 silly install resolved        url: 'git+https://github.com/mafintosh/electron-prebuilt.git' },
+46 silly install resolved     scripts:
+46 silly install resolved      { 'cache-clean': 'rm -rf ~/.electron && rm -rf dist',
+46 silly install resolved        postinstall: 'node install.js',
+46 silly install resolved        pretest: 'npm run cache-clean && node install.js',
+46 silly install resolved        test: 'tape test/*.js' },
+46 silly install resolved     bin: { electron: 'cli.js' },
+46 silly install resolved     main: 'index.js',
+46 silly install resolved     dependencies: { 'extract-zip': '^1.0.3', 'electron-download': '^1.0.0' },
+46 silly install resolved     devDependencies:
+46 silly install resolved      { 'home-path': '^0.1.1',
+46 silly install resolved        'path-exists': '^1.0.0',
+46 silly install resolved        tape: '^3.0.1' },
+46 silly install resolved     author: { name: 'Mathias Buus' },
+46 silly install resolved     license: 'MIT',
+46 silly install resolved     bugs: { url: 'https://github.com/mafintosh/electron-prebuilt/issues' },
+46 silly install resolved     homepage: 'https://github.com/mafintosh/electron-prebuilt',
+46 silly install resolved     gitHead: '5d9d2b319b9a56a7e380783cc6ee2d219320081e',
+46 silly install resolved     _id: 'electron-prebuilt@0.26.1',
+46 silly install resolved     _shasum: 'e51d81aa0e6604f41b2237d3c991af24cb623b4c',
+46 silly install resolved     _from: 'electron-prebuilt@*',
+46 silly install resolved     _npmVersion: '2.9.0',
+46 silly install resolved     _nodeVersion: '2.0.0',
+46 silly install resolved     _npmUser: { name: 'maxogden', email: 'max@maxogden.com' },
+46 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+46 silly install resolved     dist:
+46 silly install resolved      { shasum: 'e51d81aa0e6604f41b2237d3c991af24cb623b4c',
+46 silly install resolved        tarball: 'http://registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.26.1.tgz' },
+46 silly install resolved     directories: {},
+46 silly install resolved     _resolved: 'https://registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.26.1.tgz' } ]
+47 info install electron-prebuilt@0.26.1 into /usr/local/lib
+48 info installOne electron-prebuilt@0.26.1
+49 verbose installOne of electron-prebuilt to /usr/local/lib not in flight; installing
+50 verbose lock using /Users/miguele/.npm/_locks/electron-prebuilt-ba3ff1831b8f13de.lock for /usr/local/lib/node_modules/electron-prebuilt
+51 silly install write writing electron-prebuilt 0.26.1 to /usr/local/lib/node_modules/electron-prebuilt
+52 verbose unbuild lib/node_modules/electron-prebuilt
+53 silly gentlyRm /usr/local/lib/node_modules/electron-prebuilt is being purged from base /usr/local
+54 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/electron-prebuilt
+55 verbose tar unpack /Users/miguele/.npm/electron-prebuilt/0.26.1/package.tgz
+56 verbose tar unpacking to /usr/local/lib/node_modules/electron-prebuilt
+57 silly gentlyRm /usr/local/lib/node_modules/electron-prebuilt is being purged
+58 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/electron-prebuilt
+59 silly gunzTarPerm modes [ '755', '644' ]
+60 error tar.unpack untar error /Users/miguele/.npm/electron-prebuilt/0.26.1/package.tgz
+61 verbose unlock done using /Users/miguele/.npm/_locks/electron-prebuilt-ba3ff1831b8f13de.lock for /usr/local/lib/node_modules/electron-prebuilt
+62 verbose fstream_path /usr/local/lib/node_modules/electron-prebuilt
+63 verbose fstream_type Directory
+64 verbose fstream_class DirWriter
+65 verbose stack Error: EACCES, mkdir '/usr/local/lib/node_modules/electron-prebuilt'
+65 verbose stack     at Error (native)
+66 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+66 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+66 verbose fstream_stack FSReqWrap.oncomplete (fs.js:95:15)
+67 verbose cwd /Users/miguele/Code/go/src/gopher-polymer/backend
+68 error Darwin 14.3.0
+69 error argv "node" "/usr/local/bin/npm" "install" "electron-prebuilt" "-g"
+70 error node v0.12.4
+71 error npm  v2.10.1
+72 error path /usr/local/lib/node_modules/electron-prebuilt
+73 error code EACCES
+74 error errno -13
+75 error Error: EACCES, mkdir '/usr/local/lib/node_modules/electron-prebuilt'
+75 error     at Error (native)
+75 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/electron-prebuilt']
+75 error   errno: -13,
+75 error   code: 'EACCES',
+75 error   path: '/usr/local/lib/node_modules/electron-prebuilt',
+75 error   fstream_type: 'Directory',
+75 error   fstream_path: '/usr/local/lib/node_modules/electron-prebuilt',
+75 error   fstream_class: 'DirWriter',
+75 error   fstream_stack:
+75 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+75 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+75 error      'FSReqWrap.oncomplete (fs.js:95:15)' ] }
+76 error Please try running this command again as root/Administrator.
+77 verbose exit [ -13, true ]
+78 verbose unbuild lib/node_modules/electron-prebuilt
+79 silly gentlyRm /usr/local/lib/node_modules/electron-prebuilt is being purged from base /usr/local
+80 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/electron-prebuilt
